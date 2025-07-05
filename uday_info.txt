@@ -1,5 +1,314 @@
-My name is Uday Raj. I am a fullstack web developer skilled in React, Node.js, Supabase, PostgreSQL, etc.
-I have built a job portal, an e-commerce site, and an AI Telegram bot for Codeforces.
-I currently work at XYZ company and teach 60+ students.
-I walk 1.5 km to work daily and code in the mornings.
-You can find me at github.com/udayraj123
+# PERSONAL INFORMATION
+
+uday_info = """
+Name: Uday Raj
+Location: India
+Current Position: Works as a SWE at WNS Vuram
+Github link: https://github.com/UdayRajVadeghar
+Role: Full-Stack Web Developer
+Experience Level: Fresher
+"""
+
+
+
+# TECHNICAL SKILLS
+
+## Frontend Development
+- JavaScript Frameworks: React, Next.js
+- CSS Frameworks: Tailwind CSS, shadcn/ui
+- Animation: Framer Motion
+- State Management: Zustand, React Context API, ReactQuery
+- HTTP Client: Axios
+- UI Libraries: shadcn/ui components
+
+## Backend Development
+- Runtime: Node.js
+- Framework: Express.js
+- API Development: RESTful APIs, webhook handling
+- Server Management: PM2 process management
+
+## Database Technologies
+- Relational Databases: PostgreSQL, MySQL
+- NoSQL Databases: MongoDB
+- Database Tools: Prisma ORM, SQL
+- Cloud Databases: Supabase
+- Vector Databases: Chroma database
+
+## Authentication & Security
+- Authentication Methods: Supabase Auth, OAuth, JWT tokens
+- Password Security: bcrypt hashing
+- Authorization: Role-based authentication and access control (RBAC)
+- Security Practices: Environment variable management, webhook verification
+
+## Cloud & Deployment
+- Frontend Hosting: Vercel
+- Backend Hosting: Render, Azure VPS
+- Containerization: Docker
+- Storage: Amazon S3
+- SSL/TLS: Let's Encrypt certificates, CertBot
+
+## DevOps & Tools
+- Version Control: Git, GitHub
+- CI/CD: GitHub Actions
+- Web Server: Nginx reverse proxy
+- Process Management: PM2
+- Server Administration: SSH, Linux VPS management
+- Payment Processing: Stripe integration with webhooks
+
+# AI & MACHINE LEARNING EXPERTISE
+
+## LangChain Framework
+- Proficient in building AI applications using LangChain
+- Experience with LangChain components: chains, agents, memory, and tools
+- Custom chain development for specific use cases
+- Integration with various LLM providers
+
+## Vector Databases & Embeddings
+- Chroma database implementation and management
+- Vector similarity search and retrieval
+- Embedding generation and storage strategies
+- Performance optimization for vector operations
+
+## RAG (Retrieval-Augmented Generation)
+- Advanced RAG system implementation
+- Document chunking and preprocessing strategies
+- Context retrieval optimization
+- Multi-modal RAG applications
+
+## LLM Integration
+- Experience with multiple language model APIs
+- Prompt engineering and optimization
+- Model fine-tuning considerations
+- Cost optimization strategies for LLM usage
+
+## AI Application Development
+- Conversational AI and chatbot development
+- AI-powered web application integration
+- Real-time AI response systems
+- AI workflow automation
+
+# NOTABLE PROJECTS
+
+## Project 1: Stocklyn E-commerce Platform
+**Repository:** github.com/UdayRajVadeghar/stocklyn
+**Live URL:** trazor.shop
+**Type:** Full-stack E-commerce Platform
+**Status:** Production-ready and deployed
+
+### Project Overview
+Modern, full-stack e-commerce platform built with React, Express, Node.js, and PostgreSQL. Features comprehensive role-based access control, secure payment processing, and scalable architecture designed for performance and maintainability.
+
+### Technical Implementation
+- **Frontend:** React, Tailwind CSS, shadcn/ui components
+- **Backend:** Node.js, Express.js with RESTful API design
+- **Database:** PostgreSQL with Prisma ORM
+- **Authentication:** bcrypt password hashing with secure session management
+- **Payment Processing:** Stripe Checkout with webhook verification
+- **Deployment:** Vercel (frontend), Azure VPS (backend) with PM2 process management
+
+### Key Features Implemented
+- **Product Management:** Dynamic catalog with categories, filtering, and detailed views
+- **Shopping Cart:** Persistent cart with real-time quantity and price updates
+- **Secure Checkout:** Stripe integration with webhook-based order confirmation
+- **Role-Based Access Control (RBAC):**
+  - Buyers: Product browsing, cart management, order placement
+  - Sellers: Inventory management, order tracking, profile editing
+  - Admins: User management, platform oversight, product moderation
+- **Admin Dashboard:** Platform activity overview, user/order management
+- **Seller Dashboard:** Personal inventory management, order tracking
+- **Mobile Responsive:** Optimized for desktop and mobile devices
+
+### Security & Infrastructure
+- Environment variable security on frontend and VPS backend
+- Custom VPS configuration with firewall rules and HTTPS setup
+- Stripe webhook verification for payment security
+- Role-based endpoint access restrictions
+- PM2-based crash recovery and monitoring
+
+## Project 2: HireHub Job Portal Platform
+**Live URL:** https://hire-hubv1.vercel.app/
+**Type:** Full-stack Job Portal Platform
+**Status:** Live (v1) - v2 in development with UI/UX improvements
+
+### Project Overview
+Comprehensive job portal platform enabling seamless connection between recruiters and candidates. Features dual-login architecture, real-time communication, paid membership system, and scalable serverless infrastructure.
+
+### Technical Implementation
+- **Frontend:** Next.js, Tailwind CSS, shadcn/ui components
+- **Backend:** Supabase Edge Functions, custom Node.js APIs
+- **Database:** Supabase PostgreSQL + MongoDB for flexible document storage
+- **Authentication:** Supabase Auth (OAuth, magic link, password login)
+- **Payment Processing:** Stripe with complete webhook flow for memberships
+- **Storage:** Amazon S3 for resumes, profile images, job assets
+- **State Management:** React Context API
+- **Deployment:** Vercel (frontend), Supabase (backend), AWS S3 (assets)
+
+### Core Features Implemented
+- **Dual Login System:**
+  - Separate interfaces for Recruiters and Candidates
+  - Role-based navigation, actions, and permissions
+
+- **Recruiter Features:**
+  - Job posting, management, and updates
+  - Candidate profile access and shortlisting
+  - Real-time chat with candidates
+  - Membership-based premium features (unlimited postings, direct chat)
+
+- **Candidate Features:**
+  - Job browsing and application by category/skill
+  - Recruiter/company profile viewing
+  - Detailed profile management (resume, work history, skills)
+  - Personalized job feed suggestions
+  - Recruiter communication for follow-ups
+
+- **Paid Membership System:**
+  - Stripe integration for premium plan upgrades
+  - Tiered access control for recruiters
+  - Webhook handling for plan activation and billing
+
+- **Real-Time Features:**
+  - Live chatrooms for recruiter-candidate communication
+  - Dynamic job feed based on user activity and preferences
+
+- **Matching & Management:**
+  - Recruiter shortlisting system for future roles
+  - Candidate dashboard with saved jobs and application history
+
+### Version 2 Development (In Progress)
+- Complete mobile-responsive UI overhaul
+- Enhanced chat UX with typing indicators and delivery status
+- Dashboard performance improvements for large user base
+- Admin panel for platform management and abuse control
+- Comprehensive notifications system (email + in-app)
+
+# COMPETITIVE PROGRAMMING & ALGORITHMIC EXPERTISE
+
+## Platform Achievements
+- **Codeforces:** Specialist rank (Rating 1400+)
+- **LeetCode:** Knight rank (Top-tier contest performance)
+- **Total Problems Solved:** 2000+ DSA problems across all platforms
+- **Contest Participation:** Regular participation in Codeforces Div 2/3 and LeetCode Weekly/Biweekly contests
+
+## Technical Strengths in Algorithms
+- **Dynamic Programming:** Advanced DP patterns, optimization techniques
+- **Graph Algorithms:** DFS, BFS, shortest paths, minimum spanning trees
+- **Greedy Algorithms:** Optimization problems and proof techniques
+- **Binary Search:** Search space optimization and binary search on answers
+- **Tree Algorithms:** Tree traversals, LCA, tree DP
+- **Union-Find (DSU):** Disjoint set operations and path compression
+- **Advanced Recursion:** Complex recursive problem solving
+
+## Mathematical & Analytical Skills
+- **Modular Arithmetic:** Number theory applications in competitive programming
+- **Combinatorics:** Counting problems and probability
+- **Bit Manipulation:** Efficient bitwise operations and optimizations
+- **Pattern Recognition:** Identifying problem patterns for efficient solutions
+- **Time Complexity Analysis:** Big O optimization and performance analysis
+
+## Problem-Solving Methodology
+- **Visualization Techniques:** Mental modeling and diagram-based analysis
+- **Debug Strategies:** Systematic debugging with print statements and dry runs
+- **Solution Optimization:** Writing clean, optimal, and scalable code under time pressure
+- **Contest Strategy:** Efficient time management and problem prioritization
+
+## Tools & Practice Systems
+- **Custom Tools:** Built MyCPTrainer Telegram bot for practice tracking
+- **Practice Discipline:** Daily problem-solving with streak maintenance
+- **Contest Analysis:** Post-contest editorial analysis and learning
+
+# TEACHING & MENTORING EXPERIENCE
+
+## Competitive Programming Coach & Mentor
+**Students Taught:** 60+ learners (beginner to intermediate level)
+**Teaching Philosophy:** Focus on intuition and understanding over mechanical problem-solving
+
+### Curriculum & Topics Covered
+**Foundational DSA:**
+- Arrays, Strings, Recursion
+- Sorting and Searching algorithms
+- Basic problem-solving techniques
+
+**Intermediate DSA:**
+- Trees and Tree traversals
+- Linked Lists operations
+- Stack and Queue implementations
+- Hashing and Hash tables
+
+**Advanced Concepts:**
+- Dynamic Programming patterns and optimization
+- Graph Algorithms (DFS, BFS, shortest paths)
+- Binary Search on Answers
+- Bit Manipulation techniques
+- Sliding Window and Two Pointers
+- Prefix Sum and Range queries
+
+**Competitive Programming Techniques:**
+- Contest problem-solving strategies
+- Time and space complexity analysis
+- Problem pattern recognition
+- Editorial analysis and implementation
+- Live debugging and optimization
+
+### Teaching Methodology
+- **Explanation-Driven Approach:** Emphasis on understanding intuition rather than memorizing formulas
+- **Interactive Sessions:** Regular problem-solving with live walk-throughs
+- **Structured Learning:** Assignments, mock contests, and continuous feedback
+- **Technology Integration:** Custom MyCPTrainer Telegram bot for automated tracking
+- **Progress Monitoring:** Streak tracking, assignment verification, user engagement analytics
+
+### Student Success & Feedback
+
+“Makes complex topics feel easy”
+
+“Helped me break into harder problems after being stuck on easy ones for months”
+
+“Uday bhaiya’s way of teaching made me fall in love with DSA”
+
+💼 Work Experience
+🧑‍💻 Full-Stack Developer – DeepDive Labs
+Duration: May 2024 – September 2024
+Location: Remote
+
+Contributed to a high-stakes project aligned with Monetary Authority of Singapore (MAS) regulatory requirements
+
+Developed features for a compliance-centric financial application, ensuring data integrity and user-level security
+
+Worked on authentication flows, form-heavy UIs, and dynamic dashboards using React and Tailwind CSS
+
+Built robust backend services with Node.js and Express, integrating with a PostgreSQL database
+
+Focused on performance, accessibility, and clean code practices throughout the product lifecycle
+
+👨‍🏫 Competitive Programming Coach
+Duration: April 2025 – June 2025
+Location: Remote
+
+Mentored over 60 students in Data Structures and Algorithms (DSA) and Competitive Programming
+
+Covered core topics like Dynamic Programming, Graphs, Trees, Greedy, and more
+
+Designed custom problem ladders, mock contests, and live editorials
+
+Created MyCPTrainer, a Telegram bot that automates daily problem assignments, verifies participation via Codeforces submissions, and maintains user streaks and leaderboards
+
+🛠️ Apprentice – IEEE Student Chapter
+Duration: December 2022 – December 2023
+Location: On-campus
+
+Supported development for campus tech events and internal tools
+
+Built event registration flows and internal dashboards
+
+Gained experience in collaborative development using Git, REST APIs, and frontend/backend integration
+
+💼 Associate Software Developer – WNS Global Services (Current)
+Duration: July 2025 – Present
+Location: On-site
+
+Currently working on building scalable and reliable systems
+
+Focused on clean code, maintainability, and performance in enterprise environments
+
+
+
+
