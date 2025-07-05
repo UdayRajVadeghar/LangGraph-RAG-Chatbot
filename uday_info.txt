@@ -1,0 +1,5 @@
+My name is Uday Raj. I am a fullstack web developer skilled in React, Node.js, Supabase, PostgreSQL, etc.
+I have built a job portal, an e-commerce site, and an AI Telegram bot for Codeforces.
+I currently work at XYZ company and teach 60+ students.
+I walk 1.5 km to work daily and code in the mornings.
+You can find me at github.com/udayraj123
